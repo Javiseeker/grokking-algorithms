@@ -1,4 +1,4 @@
-def sumArrayRecursively(arr):
+def sumArrayRecursively(arr): # Divide n conquer
     if len(arr) == 0:
         return 0
     return arr.pop() + sumArrayRecursively(arr)

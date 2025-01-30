@@ -1,4 +1,4 @@
-def countItemsRecursively(items):
+def countItemsRecursively(items): # Divide n conquer
     if len(items) == 0:
         return 0
     items.pop()

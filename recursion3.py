@@ -1,4 +1,4 @@
-def findMaxNumber(biggest, nums):
+def findMaxNumber(biggest, nums): # Divide n conquer
     if len(nums) == 0:
         return biggest
     if nums[-1] > biggest:
