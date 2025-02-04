@@ -71,6 +71,7 @@ class DijkstraAlgorithm:
         while node is not None:
             cost = self.costs[node]
             neighbors = self.graph[node]
+            print(neighbors)
             for n in neighbors.keys():
                 new_cost = cost + neighbors[n]
                 if self.costs[n] > new_cost:
